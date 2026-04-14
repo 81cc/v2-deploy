@@ -4,4 +4,4 @@ services:
   env: docker
   envVars: # https://docs.ackee.electerious.com/#/docs/Options
   - key: PORT
-    value: 8888
+    value: 8080
