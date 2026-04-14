@@ -15,7 +15,7 @@ COPY config.json.tp /root/
 # COPY caddy.template.conf /root/
 COPY Caddyfile /root/
 
-ENV PORT=8888
+ENV PORT=8080
 
 ADD startup.sh /startup.sh
 RUN chmod +x /startup.sh
